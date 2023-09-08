@@ -45,7 +45,7 @@ public class RoomManager : MonoBehaviourPunCallbacks
     public void EndGame()
     {
 
-        // Check if the local client is the master client
+        // Check if the local client is the master client 
         if (PhotonNetwork.IsMasterClient)
         {
             // The local client is the master client, so initiate session termination
@@ -57,7 +57,7 @@ public class RoomManager : MonoBehaviourPunCallbacks
         {
             // The local client is not the master client
             // Send a custom event to the master client to request session termination
-            byte eventCode = 1; // You can use any custom event code you like
+            byte eventCode = 1; 
             RaiseEventOptions raiseEventOptions = new RaiseEventOptions { Receivers = ReceiverGroup.MasterClient };
             PhotonNetwork.RaiseEvent(eventCode, null, raiseEventOptions, SendOptions.SendReliable);
         }
