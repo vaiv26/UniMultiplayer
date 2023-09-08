@@ -1,0 +1,37 @@
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1694160908536410, "dur":205759, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1694160908742200, "dur":474847, "ph":"X", "name": "RemoveStaleOutputs",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1694160909217165, "dur":186, "ph":"X", "name": "BuildQueueInit",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1694160909217879, "dur":262, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEngine.HotReloadModule.dll_FDEF48CAC82AE09D.mvfrm" }}
+,{ "pid":12345, "tid":0, "ts":1694160909217356, "dur":10225, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1694160909227589, "dur":145, "ph":"X", "name": "WaitForBuildFinished", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1694160909227739, "dur":3713, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1694160909231481, "dur":510, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1694160909232070, "dur":989, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1694160909217296, "dur":10300, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1694160909227613, "dur":89, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1694160909217323, "dur":10277, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1694160909227621, "dur":2588, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Volumes/ADATA HD710 1/UnityEngine/2022.3.7f1/PlaybackEngines/AndroidPlayer/Unity.Android.Gradle.dll" }}
+,{ "pid":12345, "tid":2, "ts":1694160909230210, "dur":1170, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Volumes/ADATA HD710 1/UnityEngine/2022.3.7f1/Unity.app/Contents/Tools/ScriptUpdater/ApiUpdater.MovedFromExtractor.exe" }}
+,{ "pid":12345, "tid":2, "ts":1694160909227619, "dur":3762, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"MovedFromExtractor Library/Bee/artifacts/mvdfrm/Unity.Android.Gradle.dll_138E56806FC862EF.mvfrm" }}
+,{ "pid":12345, "tid":3, "ts":1694160909217325, "dur":10321, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1694160909227660, "dur":3703, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Volumes/ADATA HD710 1/UnityEngine/2022.3.7f1/Unity.app/Contents/Tools/ScriptUpdater/ApiUpdater.MovedFromExtractor.exe" }}
+,{ "pid":12345, "tid":3, "ts":1694160909227647, "dur":3724, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"MovedFromExtractor Library/Bee/artifacts/mvdfrm/Unity.Android.Types.dll_382F01E0FC703CBD.mvfrm" }}
+,{ "pid":12345, "tid":4, "ts":1694160909217329, "dur":10323, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1694160909227664, "dur":3691, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Volumes/ADATA HD710 1/UnityEngine/2022.3.7f1/Unity.app/Contents/Tools/ScriptUpdater/ApiUpdater.MovedFromExtractor.exe" }}
+,{ "pid":12345, "tid":4, "ts":1694160909227654, "dur":3716, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEngine.XRModule.dll_47395CA626B49F37.mvfrm" }}
+,{ "pid":12345, "tid":5, "ts":1694160909217325, "dur":10307, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1694160909227635, "dur":2634, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Volumes/ADATA HD710 1/UnityEngine/2022.3.7f1/PlaybackEngines/AndroidPlayer/Unity.Android.GradleProject.dll" }}
+,{ "pid":12345, "tid":5, "ts":1694160909230270, "dur":1106, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Volumes/ADATA HD710 1/UnityEngine/2022.3.7f1/Unity.app/Contents/Tools/ScriptUpdater/ApiUpdater.MovedFromExtractor.exe" }}
+,{ "pid":12345, "tid":5, "ts":1694160909227634, "dur":3744, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"MovedFromExtractor Library/Bee/artifacts/mvdfrm/Unity.Android.GradleProject.dll_0C5E09C8CF7CD0B6.mvfrm" }}
+,{ "pid":12345, "tid":6, "ts":1694160909217349, "dur":10319, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1694160909227678, "dur":3702, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Volumes/ADATA HD710 1/UnityEngine/2022.3.7f1/Unity.app/Contents/Tools/ScriptUpdater/ApiUpdater.MovedFromExtractor.exe" }}
+,{ "pid":12345, "tid":6, "ts":1694160909227669, "dur":3711, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEngine.WindModule.dll_1C895E96EEB92815.mvfrm" }}
+,{ "pid":12345, "tid":7, "ts":1694160909217351, "dur":10320, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1694160909227674, "dur":4279, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Volumes/ADATA HD710 1/UnityEngine/2022.3.7f1/Unity.app/Contents/Managed/UnityEngine/UnityEditor.CoreModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1694160909227673, "dur":4282, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEditor.CoreModule.dll_8319B01BB57D3E81.mvfrm" }}
+,{ "pid":12345, "tid":8, "ts":1694160909217352, "dur":10328, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1694160909227686, "dur":3717, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Volumes/ADATA HD710 1/UnityEngine/2022.3.7f1/Unity.app/Contents/Tools/ScriptUpdater/ApiUpdater.MovedFromExtractor.exe" }}
+,{ "pid":12345, "tid":8, "ts":1694160909227680, "dur":3724, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEditor.DeviceSimulatorModule.dll_B42E1A8F6A687E10.mvfrm" }}
+,{ "pid":12345, "tid":0, "ts":1694160909252997, "dur":35, "ph":"X", "name": "ProfilerWriteOutput" }
+,
